@@ -8,13 +8,10 @@
   **Euro Truck Simulator 2** &bull; **American Truck Simulator**
 
   <p align="center">
-    <a href="https://github.com/LucianoTruck22-Development/CastoresHub-App/releases/latest">
-      <img src="https://img.shields.io/github/v/release/LucianoTruck22-Development/CastoresHub-App?style=for-the-badge&color=0070f3&label=Descargar%20Última%20Versión" alt="Última Versión"/>
-    </a>
     <a href="https://hub.castorestrucking.mx/">
       <img src="https://img.shields.io/badge/Web%20Hub-castorestrucking.mx-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Sitio Web"/>
     </a>
-    <a href="https://discord.gg/kXZX89erVc">
+    <a href="https://castorestrucking.mx/discord">
       <img src="https://img.shields.io/badge/Discord-Comunidad%20VTC-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
     </a>
   </p>
@@ -50,19 +47,10 @@ Construida con tecnología de alto rendimiento (**Tauri v2 + Rust**), se conecta
 
 ---
 
-## 📥 Descarga e Instalación
-
-### Requisitos del Sistema
+## 📥 Requisitos del Sistema
 - **Sistema Operativo:** Windows 10 / 11 (64-bit).
 - **Juegos Soportados:** Euro Truck Simulator 2 y/o American Truck Simulator (instalaciones oficiales de Steam).
 - **Componentes Requeridos:** [Visual C++ Redistributable (x64)](https://aka.ms/vs/17/release/vc_redist.x64.exe) y WebView2 Runtime (incluido en Windows 10/11).
-
-### Pasos de Instalación:
-1. Ve a la sección de [**Releases (Lanzamientos)**](https://github.com/LucianoTruck22-Development/CastoresHub-App/releases/latest).
-2. Descarga el instalador ejecutable más reciente: `CastoresHub_x.x.x_x64-setup.exe`.
-3. Ejecuta el instalador y sigue los pasos del asistente.
-4. Abre **CastoresHub App**, inicia sesión con tus credenciales de la VTC o vincula tu cuenta de Discord.
-5. Inicia tu simulador (ETS2 o ATS) y ¡a rodar! El rastreador detectará tu camión automáticamente.
 
 ---
 
@@ -77,7 +65,7 @@ Al tratarse de una aplicación interna de comunidad firmada recientemente, haz c
 <details>
 <summary><b>2. La app no detecta el juego al entrar al camión</b></summary>
 <br>
-Asegúrate de que el plugin de telemetría (<code>scs-telemetry.dll</code>) esté instalado en la carpeta de plugins de tu juego (<code>bin/win_x64/plugins/</code>). Puedes reinstalar el plugin o verificar las rutas desde la pestaña de <b>Configuración</b> dentro de la aplicación.
+Asegúrate de que el plugin de telemetría (<code>CastoresSDK.dll</code>) esté instalado en la carpeta de plugins de tu juego (<code>bin/win_x64/plugins/</code>). Puedes reinstalar el plugin o verificar las rutas desde la pestaña de <b>Configuración</b> dentro de la aplicación.
 </details>
 
 <details>
@@ -99,7 +87,7 @@ Sí. CastoresHub detecta automáticamente cuando estás conectado a TruckersMP y
 ## 🌐 Enlaces Oficiales & Soporte
 
 - 🌍 **Portal Web Oficial:** [https://hub.castorestrucking.mx/](https://hub.castorestrucking.mx/)
-- 💬 **Discord Oficial de Castores Trucking:** [Unirse a la comunidad](https://discord.gg/kXZX89erVc)
+- 💬 **Discord Oficial de Castores Trucking:** [Unirse a la comunidad](https://castorestrucking.mx/discord)
 - 🎫 **Mesa de Ayuda / Soporte:** Si experimentas problemas con tus entregas o la aplicación, abre un ticket en nuestro Discord o portal de soporte.
 
 ---

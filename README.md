@@ -1,7 +1,5 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/LucianoTruck22-Development/CastoresHub-App/main/assets/banner.png" alt="CastoresHub Banner" width="100%" onerror="this.style.display='none'"/>
-
   # 🚛 CastoresHub App
   ### El Cliente Oficial de Telemetría y Gestión Logística para Castores Trucking VTC
   
@@ -9,7 +7,10 @@
 
   <p align="center">
     <a href="https://hub.castorestrucking.mx/">
-      <img src="https://img.shields.io/badge/Web%20Hub-castorestrucking.mx-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Sitio Web"/>
+      <img src="https://img.shields.io/badge/Web%20Hub-hub.castorestrucking.mx-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Sitio Web"/>
+    </a>
+    <a href="https://castorestrucking.mx/">
+      <img src="https://img.shields.io/badge/WebSite-castorestrucking.mx-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Sitio Web"/>
     </a>
     <a href="https://castorestrucking.mx/discord">
       <img src="https://img.shields.io/badge/Discord-Comunidad%20VTC-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
@@ -48,6 +49,8 @@ Construida con tecnología de alto rendimiento (**Tauri v2 + Rust**), se conecta
 ---
 
 ## 📥 Requisitos del Sistema
+
+### Requisitos del Sistema
 - **Sistema Operativo:** Windows 10 / 11 (64-bit).
 - **Juegos Soportados:** Euro Truck Simulator 2 y/o American Truck Simulator (instalaciones oficiales de Steam).
 - **Componentes Requeridos:** [Visual C++ Redistributable (x64)](https://aka.ms/vs/17/release/vc_redist.x64.exe) y WebView2 Runtime (incluido en Windows 10/11).
@@ -65,7 +68,7 @@ Al tratarse de una aplicación interna de comunidad firmada recientemente, haz c
 <details>
 <summary><b>2. La app no detecta el juego al entrar al camión</b></summary>
 <br>
-Asegúrate de que el plugin de telemetría (<code>CastoresSDK.dll</code>) esté instalado en la carpeta de plugins de tu juego (<code>bin/win_x64/plugins/</code>). Puedes reinstalar el plugin o verificar las rutas desde la pestaña de <b>Configuración</b> dentro de la aplicación.
+Asegúrate de que el plugin de telemetría (<code>scs-telemetry.dll</code>) esté instalado en la carpeta de plugins de tu juego (<code>bin/win_x64/plugins/</code>). Puedes reinstalar el plugin o verificar las rutas desde la pestaña de <b>Configuración</b> dentro de la aplicación.
 </details>
 
 <details>
@@ -86,8 +89,9 @@ Sí. CastoresHub detecta automáticamente cuando estás conectado a TruckersMP y
 
 ## 🌐 Enlaces Oficiales & Soporte
 
-- 🌍 **Portal Web Oficial:** [https://hub.castorestrucking.mx/](https://hub.castorestrucking.mx/)
-- 💬 **Discord Oficial de Castores Trucking:** [Unirse a la comunidad](https://castorestrucking.mx/discord)
+- 🌍 **Portal Web Oficial:** [https://castorestrucking.mx/](https://castorestrucking.mx/)
+- 🌍 **Portal Web Hub:** [https://hub.castorestrucking.mx/](https://hub.castorestrucking.mx/)
+- 💬 **Discord Oficial de Castores Trucking:** [Unirse a la comunidad](https://discord.gg/kXZX89erVc)
 - 🎫 **Mesa de Ayuda / Soporte:** Si experimentas problemas con tus entregas o la aplicación, abre un ticket en nuestro Discord o portal de soporte.
 
 ---
